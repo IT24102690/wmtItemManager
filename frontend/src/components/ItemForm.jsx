@@ -57,7 +57,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       <input name="imageUrl" value={formData.imageUrl} onChange={handleChange} />
 
 
-      <label>Customer Review</label>
+      <label>Customer  Review</label>
       <input
         type="number"
         name="customerReviewCount"
