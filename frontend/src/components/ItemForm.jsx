@@ -8,7 +8,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       price: "",
       description: "",
       imageUrl: "",
-      custormerReview: "",
+      customerReviewCount: "",
     }
   );
 
@@ -57,7 +57,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       <input name="imageUrl" value={formData.imageUrl} onChange={handleChange} />
 
 
-      <label>Price</label>
+      <label>Customer Review</label>
       <input
         type="number"
         name="customerReviewCount"
